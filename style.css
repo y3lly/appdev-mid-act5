@@ -1,0 +1,38 @@
+table, th, td {
+    border: none;
+    border-collapse: collapse;
+    font: caption;
+    font-family: calibri;
+}
+ 
+th {
+   background-color: black;
+   color: white;
+   text-align: left;
+}
+ 
+td:nth-child(1){
+    background-color: lightgray;
+}
+ 
+td:nth-child(2){
+    background-color: rgb(255, 217, 0);
+ 
+}
+ 
+.SectionA, .SectionB, .SectionC{
+  text-align: center;
+ 
+}
+ 
+.SectionA {
+    background-color: steelblue;
+}
+ 
+.SectionC {
+    background-color: red;
+}
+ 
+.SectionB{
+    background-color: green;
+}
